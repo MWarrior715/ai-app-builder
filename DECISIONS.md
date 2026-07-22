@@ -14,7 +14,7 @@ El producto es el **orquestador**, no el compilador. Hacer que el código genera
 
 ## ¿Por qué `LLMProvider` con `OpenAICompatibleLLM`?
 
-Mago-compliance y flexibilidad. El mismo repo corre con cualquier motor que exponga `/v1/chat/completions`: local, cloud, on-prem. No hay `import ollama` ni nombres de modelo específicos en el código fuente.
+Mago-compliance y flexibilidad. El mismo repo corre con cualquier motor que exponga `/v1/chat/completions`: local, cloud, on-prem. No hay imports acoplados a un proveedor concreto ni nombres de modelo específicos en el código fuente.
 
 ## ¿Por qué el delimitador `---FILE: path---`?
 
