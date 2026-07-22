@@ -1,0 +1,14 @@
+# AI App Builder — dependencias
+# Motor de IA: cliente OpenAI-compatible (habla con cualquier endpoint /v1, local o cloud).
+openai>=1.35.0
+
+# Interfaces
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# Config / modelos
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+
+# Tests
+pytest>=8.2.0
